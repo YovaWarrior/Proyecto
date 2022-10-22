@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dispro.css">
+    <title>Document</title>
+</head>
+<body class="art">
+    <div class="alineado">
+    <form action=""><!--Form es para crear formulario y action para definir la ubicacion donde se envian los datos que el formulario recopila cuando se validan-->
+        <h1 class="text3">Acceso a su cuenta</h1>
+        <label for="" class="text1"><!--El bucle for se utiliza para repetir una o mas instrucciones un determinado numero de veces -->Ingrese su numero de tarjeta</label><!-- Label proporciona una sentencia con identificador al que se puede referir al usar sentencias break o continue-->
+        <input type="number" name="c" class="cajinput"><!--Type es para definir tipo de dato, y txto es el tipo de dato-->
+        <label for="" class="text2">Ingrese su Contraseña</label>
+        <input type="password" name="p" class="cajinput1"><br><br>
+        <input type="button" value="Ingresar" class="btn" onclick="acceso(this.form)">
+    </div>
+    </form>
+    <script>
+
+        function acceso(form){
+         if (form.c.value=="09092219157") {
+            if (form.p.value=="2022") {
+                
+                location="primero.html";
+
+            } else {
+                alert("Contraseña incorrecta");
+            }
+         } else {
+            alert("Numero de tarjeta incorrecta");
+         }
+
+        }
+    </script>
+    <div class="imgg">
+    <img src="https://www2.baccredomatic.com/sites/default/files/gt_img_movil_tarjeta_puntos_gold.gif" class="imgmediana alt="gif de tarjeta">
+    </div>
+</body>
+</html>

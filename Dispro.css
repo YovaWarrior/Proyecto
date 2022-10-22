@@ -1,0 +1,175 @@
+   
+   * {
+      margin: 0px;
+      padding: 0px;
+   }
+   
+   .bloque {
+   position: relative;
+   left: 60px;
+    background-color: rgb(157, 255, 127);
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px outset goldenrod;
+    font-size: 25px;
+    color: rgb(107, 71, 47);
+    font-family: "Cambria";
+
+    }
+
+   .caja1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    border: 10px solid blue;
+    box-sizing: border-box;
+
+    }
+
+    .art {
+      background-image: url(https://fondosmil.com/fondo/11447.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    
+ 
+
+   .art2 {
+      background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg?w=2000);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: fixed;
+
+    }
+
+   .body {
+   background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1508/abstract_backgrounds_purple-Design_HD_Wallpaper_1920x1080.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+  }
+
+  .imgg {
+   text-align: center;
+    }
+   .imgmediana{
+      width: 350px;
+      height: 350px;
+      ou
+   
+
+    }
+
+img {
+   position: relative;
+   align-items: center;
+   width: 120px;
+   height: 120px;
+   object-fit: contain;
+   max-width: 10%;
+   
+   
+   
+  }
+  .cat {
+   height: 200px;
+   width: 200px;
+   }
+
+h1 {
+   text-align: center;
+   color: beige;
+   font-family:Trebuchet MS;
+   font-size: 2.5em;
+   }
+
+h2 {
+   text-align: center;
+   color: white;
+   font-family:Lucida Sans;
+   font-size: 1.5em;
+   }
+  
+  .btn {
+    position: relative;
+    left: 44%;
+    background: #b1eb94;
+    background-image: -webkit-linear-gradient(top, #9beb94, #aeb020);
+    background-image: -moz-linear-gradient(top, #b0eb94, #b0ae20);
+    background-image: -ms-linear-gradient(top, #b0eb94, #a9b020);
+    background-image: -o-linear-gradient(top, #a6eb94, #a6b020);
+    background-image: linear-gradient(to bottom, #9beb94, #91b020);
+
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+    font-family: Arial;
+    color: #fafafa;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+
+   }
+
+   .btn:hover {
+      background: #2eb020;
+      background-image: -webkit-linear-gradient(top, #20b036, #ddeb94);
+      background-image: -moz-linear-gradient(top, #20b025, #deeb94);
+      background-image: -ms-linear-gradient(top, #20b046, #daeb94);
+      background-image: -o-linear-gradient(top, #20b044, #d0eb94);
+      background-image: linear-gradient(to bottom, #20b06a, #ebeb94);
+      text-decoration: none;
+    }
+    
+
+   .text1{
+      color: #deeb94;
+      font-family:Montserrat, sans-serif; 
+      text-align: center;
+      margin: 100px;
+      padding: 10px;
+   }
+
+   .text2 {
+      color: #deeb94;
+      font-family:Montserrat, sans-serif; 
+      text-align: center;
+      margin: 100px;
+      padding: 10px;
+   }
+   .alinea {
+      text-align: 50%;
+      align-items: 50%;
+      align-content: 50%;
+      align-self: 50%;
+      align-tracks: 50%;
+   }
+
+   .cajinput{
+      font-family:Lucida Sans;
+      text-align: center;
+      margin: 40px;
+      padding: 5px;
+   }
+
+   .cajinput1{
+      font-family:Lucida Sans;
+      text-align: center;
+      margin: 40px;
+      padding: 5px;
+   }
+
+   .text3 {
+      font-family: cursive;
+      color: aliceblue;
+   }
